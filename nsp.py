@@ -102,3 +102,5 @@ for i in range(25):
     print("Najlepszy harmonogram:", best_schedule)
     print("Najniższy koszt:", best_cost)
 print("Najniższy koszt po 25 iteracjach  " + str(np.mean(min_cost)))
+print("Minimalna wartość z 25 iteracji " + str(min(min_cost)))
+print("Maksymalna wartość z 25 iteracji " + str(max(min_cost)))
